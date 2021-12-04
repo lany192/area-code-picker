@@ -22,8 +22,8 @@ import java.util.List;
 
 public class PickActivity extends AppCompatActivity {
 
-    private ArrayList<Country> selectedCountries = new ArrayList<>();
-    private ArrayList<Country> allCountries = new ArrayList<>();
+    private List<Country> selectedCountries = new ArrayList<>();
+    private List<Country> allCountries = new ArrayList<>();
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -105,7 +105,7 @@ public class PickActivity extends AppCompatActivity {
             VH vh = (VH) holder;
             final Country country = (Country) entity;
             vh.ivFlag.setImageResource(country.flag);
-            vh.tvName.setText(country.name);
+            vh.tvName.setText(country.name + "(" + country.locale + ")");
             vh.tvCode.setText("+" + country.code);
             holder.itemView.setOnClickListener(v -> {
                 Intent data = new Intent();

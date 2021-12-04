@@ -1,5 +1,15 @@
-<manifest
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 
     package="com.sahooz.library.countrypicker">
 
+    <application>
+
+        <activity
+            android:name="com.sahooz.library.countrypicker.PickActivity"
+            android:exported="true"
+            android:label="@string/pick_country"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+            android:windowSoftInputMode="adjustPan" />
+    </application>
 </manifest>
