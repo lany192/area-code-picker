@@ -13,14 +13,11 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.List;
 
-/**
- * Created by android on 17/10/17.
- */
 
 public class Country implements PyEntity {
-    private static final String TAG = Country.class.getSimpleName();
-    private static ArrayList<Country> countries = new ArrayList<>();
+    private static List<Country> countries = new ArrayList<>();
     public int code;
     public String name, locale, pinyin;
     public int flag;
@@ -33,7 +30,7 @@ public class Country implements PyEntity {
         this.pinyin = pinyin;
     }
 
-    public static ArrayList<Country> getAll() {
+    public static List<Country> getAll() {
         return new ArrayList<>(countries);
     }
 

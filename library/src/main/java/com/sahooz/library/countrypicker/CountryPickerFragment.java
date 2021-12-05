@@ -18,9 +18,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-/**
- * Created by android on 17/10/17.
- */
+
 
 public class CountryPickerFragment extends DialogFragment {
 

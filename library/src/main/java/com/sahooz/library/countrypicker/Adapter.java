@@ -12,7 +12,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
 public class Adapter extends RecyclerView.Adapter<VH> {
-
     private final LayoutInflater inflater;
     private final Context context;
     private ArrayList<Country> selectedCountries = new ArrayList<>();
