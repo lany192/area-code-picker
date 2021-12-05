@@ -1,13 +1,11 @@
 package com.sahooz.library.countrypicker;
 
-import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -36,7 +34,13 @@ public class PickActivity extends AppCompatActivity {
         allCountries.addAll(AreaHelper.get().getAll());
         selectedCountries.clear();
         selectedCountries.addAll(allCountries);
-        final CAdapter adapter = new CAdapter(selectedCountries);
+        final AreaAdapter adapter = new AreaAdapter(selectedCountries);
+        adapter.setOnSelectListener(area -> {
+            Intent data = new Intent();
+            data.putExtra("country", area.toJson());
+            setResult(Activity.RESULT_OK, data);
+            finish();
+        });
         rvPick.setAdapter(adapter);
         LinearLayoutManager manager = new LinearLayoutManager(this);
         rvPick.setLayoutManager(manager);
@@ -62,7 +66,6 @@ public class PickActivity extends AppCompatActivity {
                 adapter.update(selectedCountries);
             }
         });
-
         side.addIndex("#", side.indexes.size());
         side.setOnLetterChangeListener(new SideBar.OnLetterChangeListener() {
             @Override
@@ -80,43 +83,5 @@ public class PickActivity extends AppCompatActivity {
                 tvLetter.setVisibility(View.GONE);
             }
         });
-    }
-
-    class CAdapter extends PyAdapter<RecyclerView.ViewHolder> {
-
-        public CAdapter(List<? extends PyEntity> entities) {
-            super(entities, '#');
-        }
-
-        @Override
-        public RecyclerView.ViewHolder onCreateLetterHolder(ViewGroup parent, int viewType) {
-            return new LetterHolder(getLayoutInflater().inflate(R.layout.item_letter, parent, false));
-        }
-
-        @Override
-        public RecyclerView.ViewHolder onCreateHolder(ViewGroup parent, int viewType) {
-            return new AreaHolder(getLayoutInflater().inflate(R.layout.item_country_large_padding, parent, false));
-        }
-
-        @SuppressLint("SetTextI18n")
-        @Override
-        public void onBindHolder(RecyclerView.ViewHolder holder, PyEntity entity, int position) {
-            AreaHolder areaHolder = (AreaHolder) holder;
-            final Area country = (Area) entity;
-            areaHolder.ivFlag.setImageResource(country.flag);
-            areaHolder.tvName.setText(country.name + "(" + country.locale + ")");
-            areaHolder.tvCode.setText("+" + country.code);
-            holder.itemView.setOnClickListener(v -> {
-                Intent data = new Intent();
-                data.putExtra("country", country.toJson());
-                setResult(Activity.RESULT_OK, data);
-                finish();
-            });
-        }
-
-        @Override
-        public void onBindLetterHolder(RecyclerView.ViewHolder holder, LetterEntity entity, int position) {
-            ((LetterHolder) holder).textView.setText(entity.letter.toUpperCase());
-        }
     }
 }
