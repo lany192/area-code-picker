@@ -14,15 +14,11 @@ import androidx.annotation.Nullable;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-
-
-/**
- * Created by android on 3/14/2018.
- */
+import java.util.List;
 
 public class SideBar extends View {
 
-    public final ArrayList<String> indexes = new ArrayList<>();
+    public final List<String> indexes = new ArrayList<>();
     private OnLetterChangeListener onLetterChangeListener;
     private Paint paint;
     private float textHeight;

@@ -13,6 +13,4 @@
         android:onClick="click"
         android:text="选择" />
 
-    <include layout="@layout/item_country" />
-
 </LinearLayout>

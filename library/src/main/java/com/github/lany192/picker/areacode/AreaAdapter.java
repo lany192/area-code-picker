@@ -26,7 +26,7 @@ public class AreaAdapter extends PyAdapter<RecyclerView.ViewHolder> {
 
     @Override
     public AreaHolder onCreateHolder(ViewGroup parent, int viewType) {
-        return new AreaHolder(LayoutInflater.from(parent.getContext()).inflate(R.layout.item_country_large_padding, parent, false));
+        return new AreaHolder(LayoutInflater.from(parent.getContext()).inflate(R.layout.item_area, parent, false));
     }
 
     @SuppressLint("SetTextI18n")
