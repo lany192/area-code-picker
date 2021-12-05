@@ -41,7 +41,7 @@ public class AreaHelper {
         if (TextUtils.isEmpty(json)) return null;
         try {
             JSONObject jo = new JSONObject(json);
-            return new Area(jo.optBoolean("hot"), jo.optInt("code"), jo.optString("name"), jo.optString("pinyin"), jo.optString("locale"), jo.optInt("flag"));
+            return new Area(jo.optBoolean("hot"), jo.optInt("code"), jo.optString("name"), jo.optString("pinyin"), jo.optString("locale"));
         } catch (JSONException e) {
             e.printStackTrace();
         }
@@ -60,17 +60,13 @@ public class AreaHelper {
         String key = language.key;
         for (int i = 0; i < ja.length(); i++) {
             JSONObject jo = ja.getJSONObject(i);
-            int flag = 0;
             String locale = jo.getString("locale");
-            if (!TextUtils.isEmpty(locale)) {
-                flag = ctx.getResources().getIdentifier("flag_" + locale.toLowerCase(), "drawable", ctx.getPackageName());
-            }
             String name = jo.getString(key);
             countries.add(new Area(jo.optBoolean("hot"),
                     jo.getInt("code"),
                     name,
                     language == Language.ENGLISH ? name : jo.getString("pinyin"),
-                    locale, flag)
+                    locale)
             );
         }
     }
