@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CountryPicker</string>
+    <string name="app_name">AreaPicker</string>
     <string name="search">search</string>
     <string name="pick_country">Select country/region</string>
 </resources>

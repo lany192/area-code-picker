@@ -21,9 +21,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PickActivity extends AppCompatActivity {
-
-    private List<Country> selectedCountries = new ArrayList<>();
-    private List<Country> allCountries = new ArrayList<>();
+    private List<Area> selectedCountries = new ArrayList<>();
+    private List<Area> allCountries = new ArrayList<>();
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -34,7 +33,7 @@ public class PickActivity extends AppCompatActivity {
         EditText etSearch = findViewById(R.id.et_search);
         TextView tvLetter = findViewById(R.id.tv_letter);
         allCountries.clear();
-        allCountries.addAll(Country.getAll());
+        allCountries.addAll(Area.getAll());
         selectedCountries.clear();
         selectedCountries.addAll(allCountries);
         final CAdapter adapter = new CAdapter(selectedCountries);
@@ -56,7 +55,7 @@ public class PickActivity extends AppCompatActivity {
             public void afterTextChanged(Editable s) {
                 String string = s.toString();
                 selectedCountries.clear();
-                for (Country country : allCountries) {
+                for (Area country : allCountries) {
                     if (country.name.toLowerCase().contains(string.toLowerCase()))
                         selectedCountries.add(country);
                 }
@@ -96,17 +95,17 @@ public class PickActivity extends AppCompatActivity {
 
         @Override
         public RecyclerView.ViewHolder onCreateHolder(ViewGroup parent, int viewType) {
-            return new VH(getLayoutInflater().inflate(R.layout.item_country_large_padding, parent, false));
+            return new AreaHolder(getLayoutInflater().inflate(R.layout.item_country_large_padding, parent, false));
         }
 
         @SuppressLint("SetTextI18n")
         @Override
         public void onBindHolder(RecyclerView.ViewHolder holder, PyEntity entity, int position) {
-            VH vh = (VH) holder;
-            final Country country = (Country) entity;
-            vh.ivFlag.setImageResource(country.flag);
-            vh.tvName.setText(country.name + "(" + country.locale + ")");
-            vh.tvCode.setText("+" + country.code);
+            AreaHolder areaHolder = (AreaHolder) holder;
+            final Area country = (Area) entity;
+            areaHolder.ivFlag.setImageResource(country.flag);
+            areaHolder.tvName.setText(country.name + "(" + country.locale + ")");
+            areaHolder.tvCode.setText("+" + country.code);
             holder.itemView.setOnClickListener(v -> {
                 Intent data = new Intent();
                 data.putExtra("country", country.toJson());

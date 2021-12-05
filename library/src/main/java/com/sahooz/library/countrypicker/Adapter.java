@@ -11,11 +11,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-public class Adapter extends RecyclerView.Adapter<VH> {
+public class Adapter extends RecyclerView.Adapter<AreaHolder> {
     private final LayoutInflater inflater;
     private final Context context;
-    private ArrayList<Country> selectedCountries = new ArrayList<>();
-    private PickCountryCallback callback = null;
+    private ArrayList<Area> selectedCountries = new ArrayList<>();
+    private PickAreaCallback callback = null;
     private int itemHeight = -1;
 
     public Adapter(Context ctx) {
@@ -23,19 +23,19 @@ public class Adapter extends RecyclerView.Adapter<VH> {
         context = ctx;
     }
 
-    public void setSelectedCountries(ArrayList<Country> selectedCountries) {
+    public void setSelectedCountries(ArrayList<Area> selectedCountries) {
         this.selectedCountries = selectedCountries;
         notifyDataSetChanged();
     }
 
-    public void setCallback(PickCountryCallback callback) {
+    public void setCallback(PickAreaCallback callback) {
         this.callback = callback;
     }
 
     @NonNull
     @Override
-    public VH onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        return new VH(inflater.inflate(R.layout.item_country, parent, false));
+    public AreaHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        return new AreaHolder(inflater.inflate(R.layout.item_country, parent, false));
     }
 
     public void setItemHeight(float dp) {
@@ -44,8 +44,8 @@ public class Adapter extends RecyclerView.Adapter<VH> {
 
     @SuppressLint("SetTextI18n")
     @Override
-    public void onBindViewHolder(VH holder, int position) {
-        final Country country = selectedCountries.get(position);
+    public void onBindViewHolder(AreaHolder holder, int position) {
+        final Area country = selectedCountries.get(position);
         holder.ivFlag.setImageResource(country.flag);
         holder.tvName.setText(country.name + "(" + country.locale + ")");
         holder.tvCode.setText("+" + country.code);

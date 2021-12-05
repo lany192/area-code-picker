@@ -15,14 +15,15 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-
-public class Country implements PyEntity {
-    private static List<Country> countries = new ArrayList<>();
+public class Area implements PyEntity {
+    private static List<Area> countries = new ArrayList<>();
     public int code;
     public String name, locale, pinyin;
     public int flag;
+    private boolean hot;
 
-    public Country(int code, String name, String pinyin, String locale, int flag) {
+    public Area(boolean hot, int code, String name, String pinyin, String locale, int flag) {
+        this.hot = hot;
         this.code = code;
         this.name = name;
         this.flag = flag;
@@ -30,15 +31,15 @@ public class Country implements PyEntity {
         this.pinyin = pinyin;
     }
 
-    public static List<Country> getAll() {
+    public static List<Area> getAll() {
         return new ArrayList<>(countries);
     }
 
-    public static Country fromJson(String json) {
+    public static Area fromJson(String json) {
         if (TextUtils.isEmpty(json)) return null;
         try {
             JSONObject jo = new JSONObject(json);
-            return new Country(jo.optInt("code"), jo.optString("name"), jo.optString("pinyin"), jo.optString("locale"), jo.optInt("flag"));
+            return new Area(jo.optBoolean("hot"), jo.optInt("code"), jo.optString("name"), jo.optString("pinyin"), jo.optString("locale"), jo.optInt("flag"));
         } catch (JSONException e) {
             e.printStackTrace();
         }
@@ -47,7 +48,7 @@ public class Country implements PyEntity {
 
     public static void load(@NonNull Context ctx, Language language) throws IOException, JSONException {
         countries = new ArrayList<>();
-        BufferedReader br = new BufferedReader(new InputStreamReader(ctx.getResources().getAssets().open("code.json")));
+        BufferedReader br = new BufferedReader(new InputStreamReader(ctx.getResources().getAssets().open("area-code.json")));
         String line;
         StringBuilder sb = new StringBuilder();
         while ((line = br.readLine()) != null)
@@ -63,7 +64,7 @@ public class Country implements PyEntity {
                 flag = ctx.getResources().getIdentifier("flag_" + locale.toLowerCase(), "drawable", ctx.getPackageName());
             }
             String name = jo.getString(key);
-            countries.add(new Country(
+            countries.add(new Area(jo.optBoolean("hot"),
                     jo.getInt("code"),
                     name,
                     language == Language.ENGLISH ? name : jo.getString("pinyin"),
@@ -78,10 +79,13 @@ public class Country implements PyEntity {
 
     @Override
     public String toString() {
-        return "Country{" +
-                "code='" + code + '\'' +
-                "flag='" + flag + '\'' +
+        return "Area{" +
+                "code=" + code +
                 ", name='" + name + '\'' +
+                ", locale='" + locale + '\'' +
+                ", pinyin='" + pinyin + '\'' +
+                ", flag=" + flag +
+                ", hot=" + hot +
                 '}';
     }
 
