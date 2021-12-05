@@ -1,13 +1,15 @@
 [
   {
-    "sc": "中国",
+    "hot": true,
+    "sc": "中国大陆",
     "code": 86,
     "pinyin": "ZHONGGUO",
     "en": "China",
     "locale": "CN",
-    "tc": "中國"
+    "tc": "中國大陸"
   },
   {
+    "hot": false,
     "sc": "安哥拉",
     "code": 244,
     "pinyin": "ANGELA",
@@ -16,6 +18,7 @@
     "tc": "安哥拉"
   },
   {
+    "hot": false,
     "sc": "阿富汗",
     "code": 93,
     "pinyin": "AFUHAN",
@@ -24,6 +27,7 @@
     "tc": "阿富汗"
   },
   {
+    "hot": false,
     "sc": "阿尔巴尼亚",
     "code": 355,
     "pinyin": "AERBANIYA",
@@ -32,6 +36,7 @@
     "tc": "阿爾巴尼亞"
   },
   {
+    "hot": false,
     "sc": "阿尔及利亚",
     "code": 213,
     "pinyin": "AERJILIYA",
@@ -40,6 +45,7 @@
     "tc": "阿爾及利亞"
   },
   {
+    "hot": false,
     "sc": "安道尔共和国",
     "code": 376,
     "pinyin": "ANDAOERGONGHEGUO",
@@ -48,6 +54,7 @@
     "tc": "安道爾共和國"
   },
   {
+    "hot": false,
     "sc": "安圭拉岛",
     "code": 1264,
     "pinyin": "ANGUILADAO",
@@ -56,6 +63,7 @@
     "tc": "安圭拉島"
   },
   {
+    "hot": false,
     "sc": "安提瓜和巴布达",
     "code": 1268,
     "pinyin": "ANTIGUAHEBABUDA",
@@ -64,6 +72,7 @@
     "tc": "安提瓜和巴布達"
   },
   {
+    "hot": false,
     "sc": "阿根廷",
     "code": 54,
     "pinyin": "AGENTING",
@@ -72,6 +81,7 @@
     "tc": "阿根廷"
   },
   {
+    "hot": false,
     "sc": "亚美尼亚",
     "code": 374,
     "pinyin": "YAMEINIYA",
@@ -80,6 +90,7 @@
     "tc": "亞美尼亞"
   },
   {
+    "hot": false,
     "sc": "阿森松",
     "code": 247,
     "pinyin": "ASENSONG",
@@ -88,6 +99,7 @@
     "tc": "阿森松"
   },
   {
+    "hot": false,
     "sc": "澳大利亚",
     "code": 61,
     "pinyin": "AODALIYA",
@@ -96,6 +108,7 @@
     "tc": "澳大利亞"
   },
   {
+    "hot": false,
     "sc": "奥地利",
     "code": 43,
     "pinyin": "AODILI",
@@ -104,6 +117,7 @@
     "tc": "奧地利"
   },
   {
+    "hot": false,
     "sc": "阿塞拜疆",
     "code": 994,
     "pinyin": "ASAIBAIJIANG",
@@ -112,6 +126,7 @@
     "tc": "阿塞拜疆"
   },
   {
+    "hot": false,
     "sc": "巴哈马",
     "code": 1242,
     "pinyin": "BAHAMA",
@@ -120,6 +135,7 @@
     "tc": "巴哈馬"
   },
   {
+    "hot": false,
     "sc": "巴林",
     "code": 973,
     "pinyin": "BALIN",
@@ -128,6 +144,7 @@
     "tc": "巴林"
   },
   {
+    "hot": false,
     "sc": "孟加拉国",
     "code": 880,
     "pinyin": "MENGJIALAGUO",
@@ -136,6 +153,7 @@
     "tc": "孟加拉國"
   },
   {
+    "hot": false,
     "sc": "巴巴多斯",
     "code": 1246,
     "pinyin": "BABADUOSI",
@@ -144,6 +162,7 @@
     "tc": "巴巴多斯"
   },
   {
+    "hot": false,
     "sc": "白俄罗斯",
     "code": 375,
     "pinyin": "BAIELUOSI",
@@ -152,6 +171,7 @@
     "tc": "白俄羅斯"
   },
   {
+    "hot": false,
     "sc": "比利时",
     "code": 32,
     "pinyin": "BILISHI",
@@ -160,6 +180,7 @@
     "tc": "比利時"
   },
   {
+    "hot": false,
     "sc": "伯利兹",
     "code": 501,
     "pinyin": "BOLIZI",
@@ -168,6 +189,7 @@
     "tc": "伯利茲"
   },
   {
+    "hot": false,
     "sc": "贝宁",
     "code": 229,
     "pinyin": "BEINING",
@@ -176,6 +198,7 @@
     "tc": "貝寧"
   },
   {
+    "hot": false,
     "sc": "百慕大群岛",
     "code": 1441,
     "pinyin": "BAIMUDAQUNDAO",
@@ -184,6 +207,7 @@
     "tc": "百慕達群島"
   },
   {
+    "hot": false,
     "sc": "玻利维亚",
     "code": 591,
     "pinyin": "BOLIWEIYA",
@@ -192,6 +216,7 @@
     "tc": "玻利維亞"
   },
   {
+    "hot": false,
     "sc": "博茨瓦纳",
     "code": 267,
     "pinyin": "BOCIWANA",
@@ -200,6 +225,7 @@
     "tc": "博茨瓦納"
   },
   {
+    "hot": false,
     "sc": "巴西",
     "code": 55,
     "pinyin": "BAXI",
@@ -208,6 +234,7 @@
     "tc": "巴西"
   },
   {
+    "hot": false,
     "sc": "文莱",
     "code": 673,
     "pinyin": "WENLAI",
@@ -216,6 +243,7 @@
     "tc": "文萊"
   },
   {
+    "hot": false,
     "sc": "保加利亚",
     "code": 359,
     "pinyin": "BAOJIALIYA",
@@ -224,6 +252,7 @@
     "tc": "保加利亞"
   },
   {
+    "hot": false,
     "sc": "布基纳法索",
     "code": 226,
     "pinyin": "BUJINAFASUO",
@@ -232,6 +261,7 @@
     "tc": "布基納法索"
   },
   {
+    "hot": false,
     "sc": "缅甸",
     "code": 95,
     "pinyin": "MIANDIAN",
@@ -240,6 +270,7 @@
     "tc": "緬甸"
   },
   {
+    "hot": false,
     "sc": "布隆迪",
     "code": 257,
     "pinyin": "BULONGDI",
@@ -248,6 +279,7 @@
     "tc": "布隆迪"
   },
   {
+    "hot": false,
     "sc": "喀麦隆",
     "code": 237,
     "pinyin": "KAMAILONG",
@@ -256,6 +288,7 @@
     "tc": "喀麥隆"
   },
   {
+    "hot": false,
     "sc": "加拿大",
     "code": 1,
     "pinyin": "JIANADA",
@@ -264,6 +297,7 @@
     "tc": "加拿大"
   },
   {
+    "hot": false,
     "sc": "开曼群岛",
     "code": 1345,
     "pinyin": "KAIMANQUNDAO",
@@ -272,6 +306,7 @@
     "tc": "開曼群島"
   },
   {
+    "hot": false,
     "sc": "中非共和国",
     "code": 236,
     "pinyin": "ZHONGFEIGONGHEGUO",
@@ -280,6 +315,7 @@
     "tc": "中非共和國"
   },
   {
+    "hot": false,
     "sc": "乍得",
     "code": 235,
     "pinyin": "ZHADE",
@@ -288,6 +324,7 @@
     "tc": "乍得"
   },
   {
+    "hot": false,
     "sc": "智利",
     "code": 56,
     "pinyin": "ZHILI",
@@ -296,6 +333,7 @@
     "tc": "智利"
   },
   {
+    "hot": false,
     "sc": "哥伦比亚",
     "code": 57,
     "pinyin": "GELUNBIYA",
@@ -304,6 +342,7 @@
     "tc": "哥倫比亞"
   },
   {
+    "hot": false,
     "sc": "刚果",
     "code": 242,
     "pinyin": "GANGGUO",
@@ -312,6 +351,7 @@
     "tc": "剛果"
   },
   {
+    "hot": false,
     "sc": "库克群岛",
     "code": 682,
     "pinyin": "KUKEQUNDAO",
@@ -320,6 +360,7 @@
     "tc": "庫克群島"
   },
   {
+    "hot": false,
     "sc": "哥斯达黎加",
     "code": 506,
     "pinyin": "GESIDALIJIA",
@@ -328,6 +369,7 @@
     "tc": "哥斯達黎加"
   },
   {
+    "hot": false,
     "sc": "古巴",
     "code": 53,
     "pinyin": "GUBA",
@@ -336,6 +378,7 @@
     "tc": "古巴"
   },
   {
+    "hot": false,
     "sc": "塞浦路斯",
     "code": 357,
     "pinyin": "SAIPULUSI",
@@ -344,6 +387,7 @@
     "tc": "塞浦路斯"
   },
   {
+    "hot": false,
     "sc": "捷克",
     "code": 420,
     "pinyin": "JIEKE",
@@ -352,6 +396,7 @@
     "tc": "捷克"
   },
   {
+    "hot": false,
     "sc": "丹麦",
     "code": 45,
     "pinyin": "DANMAI",
@@ -360,6 +405,7 @@
     "tc": "丹麥"
   },
   {
+    "hot": false,
     "sc": "吉布提",
     "code": 253,
     "pinyin": "JIBUTI",
@@ -368,6 +414,7 @@
     "tc": "吉布堤"
   },
   {
+    "hot": false,
     "sc": "多米尼加共和国",
     "code": 1890,
     "pinyin": "DUOMINIJIAGONGHEGUO",
@@ -376,6 +423,7 @@
     "tc": "多明尼加共和國共和國"
   },
   {
+    "hot": false,
     "sc": "厄瓜多尔",
     "code": 593,
     "pinyin": "EGUADUOER",
@@ -384,6 +432,7 @@
     "tc": "厄瓜多爾"
   },
   {
+    "hot": false,
     "sc": "埃及",
     "code": 20,
     "pinyin": "AIJI",
@@ -392,6 +441,7 @@
     "tc": "埃及"
   },
   {
+    "hot": false,
     "sc": "萨尔瓦多",
     "code": 503,
     "pinyin": "SAERWADUO",
@@ -400,6 +450,7 @@
     "tc": "薩爾瓦多"
   },
   {
+    "hot": false,
     "sc": "爱沙尼亚",
     "code": 372,
     "pinyin": "AISHANIYA",
@@ -408,6 +459,7 @@
     "tc": "愛沙尼亞"
   },
   {
+    "hot": false,
     "sc": "埃塞俄比亚",
     "code": 251,
     "pinyin": "AISAIEBIYA",
@@ -416,6 +468,7 @@
     "tc": "埃塞俄比亞"
   },
   {
+    "hot": false,
     "sc": "斐济",
     "code": 679,
     "pinyin": "FEIJI",
@@ -424,6 +477,7 @@
     "tc": "斐濟"
   },
   {
+    "hot": false,
     "sc": "芬兰",
     "code": 358,
     "pinyin": "FENLAN",
@@ -432,6 +486,7 @@
     "tc": "芬蘭"
   },
   {
+    "hot": false,
     "sc": "法国",
     "code": 33,
     "pinyin": "FAGUO",
@@ -440,6 +495,7 @@
     "tc": "法國"
   },
   {
+    "hot": false,
     "sc": "法属圭亚那",
     "code": 594,
     "pinyin": "FASHUGUIYANEI",
@@ -448,6 +504,7 @@
     "tc": "法屬圭亞那"
   },
   {
+    "hot": false,
     "sc": "加蓬",
     "code": 241,
     "pinyin": "JIAPENG",
@@ -456,6 +513,7 @@
     "tc": "加蓬"
   },
   {
+    "hot": false,
     "sc": "冈比亚",
     "code": 220,
     "pinyin": "GANGBIYA",
@@ -464,6 +522,7 @@
     "tc": "岡比亞"
   },
   {
+    "hot": false,
     "sc": "格鲁吉亚",
     "code": 995,
     "pinyin": "GELUJIYA",
@@ -472,6 +531,7 @@
     "tc": "格魯吉亞"
   },
   {
+    "hot": false,
     "sc": "德国",
     "code": 49,
     "pinyin": "DEGUO",
@@ -480,6 +540,7 @@
     "tc": "德國"
   },
   {
+    "hot": false,
     "sc": "加纳",
     "code": 233,
     "pinyin": "JIANA",
@@ -488,6 +549,7 @@
     "tc": "加納"
   },
   {
+    "hot": false,
     "sc": "直布罗陀",
     "code": 350,
     "pinyin": "ZHIBULUOTUO",
@@ -496,6 +558,7 @@
     "tc": "直布羅陀"
   },
   {
+    "hot": false,
     "sc": "希腊",
     "code": 30,
     "pinyin": "XILA",
@@ -504,6 +567,7 @@
     "tc": "希臘"
   },
   {
+    "hot": false,
     "sc": "格林纳达",
     "code": 1809,
     "pinyin": "GELINNADA",
@@ -512,6 +576,7 @@
     "tc": "格林納達"
   },
   {
+    "hot": false,
     "sc": "关岛",
     "code": 1671,
     "pinyin": "GUANDAO",
@@ -520,6 +585,7 @@
     "tc": "關島"
   },
   {
+    "hot": false,
     "sc": "危地马拉",
     "code": 502,
     "pinyin": "WEIDIMALA",
@@ -528,6 +594,7 @@
     "tc": "危地馬拉"
   },
   {
+    "hot": false,
     "sc": "几内亚",
     "code": 224,
     "pinyin": "JINEIYA",
@@ -536,6 +603,7 @@
     "tc": "幾內亞"
   },
   {
+    "hot": false,
     "sc": "圭亚那",
     "code": 592,
     "pinyin": "GUIYANEI",
@@ -544,6 +612,7 @@
     "tc": "圭亞那"
   },
   {
+    "hot": false,
     "sc": "海地",
     "code": 509,
     "pinyin": "HAIDI",
@@ -552,6 +621,7 @@
     "tc": "海地"
   },
   {
+    "hot": false,
     "sc": "洪都拉斯",
     "code": 504,
     "pinyin": "HONGDOULASI",
@@ -560,6 +630,7 @@
     "tc": "洪都拉斯"
   },
   {
+    "hot": false,
     "sc": "中国香港",
     "code": 852,
     "pinyin": "ZHONGGUOXIANGGANG",
@@ -568,6 +639,7 @@
     "tc": "中國香港"
   },
   {
+    "hot": false,
     "sc": "匈牙利",
     "code": 36,
     "pinyin": "XIONGYALI",
@@ -576,6 +648,7 @@
     "tc": "匈牙利"
   },
   {
+    "hot": false,
     "sc": "冰岛",
     "code": 354,
     "pinyin": "BINGDAO",
@@ -584,6 +657,7 @@
     "tc": "冰島"
   },
   {
+    "hot": false,
     "sc": "印度",
     "code": 91,
     "pinyin": "YINDU",
@@ -592,6 +666,7 @@
     "tc": "印度"
   },
   {
+    "hot": false,
     "sc": "印度尼西亚",
     "code": 62,
     "pinyin": "YINDUNIXIYA",
@@ -600,6 +675,7 @@
     "tc": "印度尼西亞"
   },
   {
+    "hot": false,
     "sc": "伊朗",
     "code": 98,
     "pinyin": "YILANG",
@@ -608,6 +684,7 @@
     "tc": "伊朗"
   },
   {
+    "hot": false,
     "sc": "伊拉克",
     "code": 964,
     "pinyin": "YILAKE",
@@ -616,6 +693,7 @@
     "tc": "伊拉克"
   },
   {
+    "hot": false,
     "sc": "爱尔兰",
     "code": 353,
     "pinyin": "AIERLAN",
@@ -624,6 +702,7 @@
     "tc": "愛爾蘭"
   },
   {
+    "hot": false,
     "sc": "以色列",
     "code": 972,
     "pinyin": "YISELIE",
@@ -632,6 +711,7 @@
     "tc": "以色列"
   },
   {
+    "hot": false,
     "sc": "意大利",
     "code": 39,
     "pinyin": "YIDALI",
@@ -640,6 +720,7 @@
     "tc": "意大利"
   },
   {
+    "hot": false,
     "sc": "科特迪瓦",
     "code": 225,
     "pinyin": "KETEDIWA",
@@ -648,6 +729,7 @@
     "tc": "科特迪瓦"
   },
   {
+    "hot": false,
     "sc": "牙买加",
     "code": 1876,
     "pinyin": "YAMAIJIA",
@@ -656,6 +738,7 @@
     "tc": "牙買加"
   },
   {
+    "hot": false,
     "sc": "日本",
     "code": 81,
     "pinyin": "RIBEN",
@@ -664,6 +747,7 @@
     "tc": "日本"
   },
   {
+    "hot": false,
     "sc": "约旦",
     "code": 962,
     "pinyin": "YUEDAN",
@@ -672,6 +756,7 @@
     "tc": "約旦"
   },
   {
+    "hot": false,
     "sc": "柬埔寨",
     "code": 855,
     "pinyin": "JIANPUZHAI",
@@ -680,6 +765,7 @@
     "tc": "柬埔寨"
   },
   {
+    "hot": false,
     "sc": "哈萨克斯坦",
     "code": 327,
     "pinyin": "HASAKESITAN",
@@ -688,6 +774,7 @@
     "tc": "哈薩克"
   },
   {
+    "hot": false,
     "sc": "肯尼亚",
     "code": 254,
     "pinyin": "KENNIYA",
@@ -696,6 +783,7 @@
     "tc": "肯雅"
   },
   {
+    "hot": false,
     "sc": "韩国",
     "code": 82,
     "pinyin": "HANGUO",
@@ -704,6 +792,7 @@
     "tc": "韓國"
   },
   {
+    "hot": false,
     "sc": "科威特",
     "code": 965,
     "pinyin": "KEWEITE",
@@ -712,6 +801,7 @@
     "tc": "科威特"
   },
   {
+    "hot": false,
     "sc": "吉尔吉斯坦",
     "code": 331,
     "pinyin": "JIERJISITAN",
@@ -720,6 +810,7 @@
     "tc": "吉爾吉斯坦"
   },
   {
+    "hot": false,
     "sc": "老挝",
     "code": 856,
     "pinyin": "LAOWO",
@@ -728,6 +819,7 @@
     "tc": "寮國"
   },
   {
+    "hot": false,
     "sc": "拉脱维亚",
     "code": 371,
     "pinyin": "LATUOWEIYA",
@@ -736,6 +828,7 @@
     "tc": "拉脫維亞"
   },
   {
+    "hot": false,
     "sc": "黎巴嫩",
     "code": 961,
     "pinyin": "LIBANEN",
@@ -744,6 +837,7 @@
     "tc": "黎巴嫩"
   },
   {
+    "hot": false,
     "sc": "莱索托",
     "code": 266,
     "pinyin": "LAISUOTUO",
@@ -752,6 +846,7 @@
     "tc": "萊索托"
   },
   {
+    "hot": false,
     "sc": "利比里亚",
     "code": 231,
     "pinyin": "LIBILIYA",
@@ -760,6 +855,7 @@
     "tc": "利比里亞"
   },
   {
+    "hot": false,
     "sc": "利比亚",
     "code": 218,
     "pinyin": "LIBIYA",
@@ -768,6 +864,7 @@
     "tc": "利比亞"
   },
   {
+    "hot": false,
     "sc": "列支敦士登",
     "code": 423,
     "pinyin": "LIEZHIDUNSHIDENG",
@@ -776,6 +873,7 @@
     "tc": "列支敦士登"
   },
   {
+    "hot": false,
     "sc": "立陶宛",
     "code": 370,
     "pinyin": "LITAOWAN",
@@ -784,6 +882,7 @@
     "tc": "立陶宛"
   },
   {
+    "hot": false,
     "sc": "卢森堡",
     "code": 352,
     "pinyin": "LUSENBAO",
@@ -792,6 +891,7 @@
     "tc": "盧森堡"
   },
   {
+    "hot": false,
     "sc": "中国澳门",
     "code": 853,
     "pinyin": "ZHONGGUOAOMEN",
@@ -800,6 +900,7 @@
     "tc": "中國澳門"
   },
   {
+    "hot": false,
     "sc": "马达加斯加",
     "code": 261,
     "pinyin": "MADAJIASIJIA",
@@ -808,6 +909,7 @@
     "tc": "馬達加斯加"
   },
   {
+    "hot": false,
     "sc": "马拉维",
     "code": 265,
     "pinyin": "MALAWEI",
@@ -816,6 +918,7 @@
     "tc": "馬拉維"
   },
   {
+    "hot": false,
     "sc": "马来西亚",
     "code": 60,
     "pinyin": "MALAIXIYA",
@@ -824,6 +927,7 @@
     "tc": "馬來西亞"
   },
   {
+    "hot": false,
     "sc": "马尔代夫",
     "code": 960,
     "pinyin": "MAERDAIFU",
@@ -832,6 +936,7 @@
     "tc": "馬爾代夫"
   },
   {
+    "hot": false,
     "sc": "马里",
     "code": 223,
     "pinyin": "MALI",
@@ -840,6 +945,7 @@
     "tc": "馬里"
   },
   {
+    "hot": false,
     "sc": "马耳他",
     "code": 356,
     "pinyin": "MAERTA",
@@ -848,6 +954,7 @@
     "tc": "馬爾他"
   },
   {
+    "hot": false,
     "sc": "马里亚那群岛",
     "code": 1670,
     "pinyin": "MALIYANEIQUNDAO",
@@ -856,6 +963,7 @@
     "tc": "馬里亞那群島"
   },
   {
+    "hot": false,
     "sc": "马提尼克",
     "code": 596,
     "pinyin": "MATINIKE",
@@ -864,6 +972,7 @@
     "tc": "馬提尼克島"
   },
   {
+    "hot": false,
     "sc": "毛里求斯",
     "code": 230,
     "pinyin": "MAOLIQIUSI",
@@ -872,6 +981,7 @@
     "tc": "毛里裘斯"
   },
   {
+    "hot": false,
     "sc": "墨西哥",
     "code": 52,
     "pinyin": "MOXIGE",
@@ -880,6 +990,7 @@
     "tc": "墨西哥"
   },
   {
+    "hot": false,
     "sc": "摩尔多瓦",
     "code": 373,
     "pinyin": "MOERDUOWA",
@@ -888,6 +999,7 @@
     "tc": "摩爾多瓦"
   },
   {
+    "hot": false,
     "sc": "摩纳哥",
     "code": 377,
     "pinyin": "MONAGE",
@@ -896,6 +1008,7 @@
     "tc": "摩納哥"
   },
   {
+    "hot": false,
     "sc": "蒙古",
     "code": 976,
     "pinyin": "MENGGU",
@@ -904,6 +1017,7 @@
     "tc": "蒙古"
   },
   {
+    "hot": false,
     "sc": "蒙特塞拉特岛",
     "code": 1664,
     "pinyin": "MENGTESAILATEDAO",
@@ -912,6 +1026,7 @@
     "tc": "蒙特塞拉特島"
   },
   {
+    "hot": false,
     "sc": "摩洛哥",
     "code": 212,
     "pinyin": "MOLUOGE",
@@ -920,6 +1035,7 @@
     "tc": "摩洛哥"
   },
   {
+    "hot": false,
     "sc": "莫桑比克",
     "code": 258,
     "pinyin": "MOSANGBIKE",
@@ -928,6 +1044,7 @@
     "tc": "莫桑比克"
   },
   {
+    "hot": false,
     "sc": "纳米比亚",
     "code": 264,
     "pinyin": "NAMIBIYA",
@@ -936,6 +1053,7 @@
     "tc": "納米比亞"
   },
   {
+    "hot": false,
     "sc": "瑙鲁",
     "code": 674,
     "pinyin": "NAOLU",
@@ -944,6 +1062,7 @@
     "tc": "瑙魯"
   },
   {
+    "hot": false,
     "sc": "尼泊尔",
     "code": 977,
     "pinyin": "NIBOER",
@@ -952,6 +1071,7 @@
     "tc": "尼泊爾"
   },
   {
+    "hot": false,
     "sc": "荷属安的列斯",
     "code": 599,
     "pinyin": "HESHUANDELIESI",
@@ -960,6 +1080,7 @@
     "tc": "荷屬安地列斯"
   },
   {
+    "hot": false,
     "sc": "荷兰",
     "code": 31,
     "pinyin": "HELAN",
@@ -968,6 +1089,7 @@
     "tc": "荷蘭"
   },
   {
+    "hot": false,
     "sc": "新西兰",
     "code": 64,
     "pinyin": "XINXILAN",
@@ -976,6 +1098,7 @@
     "tc": "新西蘭"
   },
   {
+    "hot": false,
     "sc": "尼加拉瓜",
     "code": 505,
     "pinyin": "NIJIALAGUA",
@@ -984,6 +1107,7 @@
     "tc": "尼加拉瓜"
   },
   {
+    "hot": false,
     "sc": "尼日尔",
     "code": 227,
     "pinyin": "NIRIER",
@@ -992,6 +1116,7 @@
     "tc": "尼日爾"
   },
   {
+    "hot": false,
     "sc": "尼日利亚",
     "code": 234,
     "pinyin": "NIRILIYA",
@@ -1000,6 +1125,7 @@
     "tc": "尼日利亞"
   },
   {
+    "hot": false,
     "sc": "朝鲜",
     "code": 850,
     "pinyin": "CHAOXIAN",
@@ -1008,6 +1134,7 @@
     "tc": "朝鮮"
   },
   {
+    "hot": false,
     "sc": "挪威",
     "code": 47,
     "pinyin": "NUOWEI",
@@ -1016,6 +1143,7 @@
     "tc": "挪威"
   },
   {
+    "hot": false,
     "sc": "阿曼",
     "code": 968,
     "pinyin": "AMAN",
@@ -1024,6 +1152,7 @@
     "tc": "阿曼"
   },
   {
+    "hot": false,
     "sc": "巴基斯坦",
     "code": 92,
     "pinyin": "BAJISITAN",
@@ -1032,6 +1161,7 @@
     "tc": "巴基斯坦"
   },
   {
+    "hot": false,
     "sc": "巴拿马",
     "code": 507,
     "pinyin": "BANAMA",
@@ -1040,6 +1170,7 @@
     "tc": "巴拿馬"
   },
   {
+    "hot": false,
     "sc": "巴布亚新几内亚",
     "code": 675,
     "pinyin": "BABUYAXINJINEIYA",
@@ -1048,6 +1179,7 @@
     "tc": "巴布亞新畿內亞"
   },
   {
+    "hot": false,
     "sc": "巴拉圭",
     "code": 595,
     "pinyin": "BALAGUI",
@@ -1056,6 +1188,7 @@
     "tc": "巴拉圭"
   },
   {
+    "hot": false,
     "sc": "秘鲁",
     "code": 51,
     "pinyin": "MILU",
@@ -1064,6 +1197,7 @@
     "tc": "秘魯"
   },
   {
+    "hot": false,
     "sc": "菲律宾",
     "code": 63,
     "pinyin": "FEILVBIN",
@@ -1072,6 +1206,7 @@
     "tc": "菲律賓"
   },
   {
+    "hot": false,
     "sc": "波兰",
     "code": 48,
     "pinyin": "BOLAN",
@@ -1080,6 +1215,7 @@
     "tc": "波蘭"
   },
   {
+    "hot": false,
     "sc": "法属玻利尼西亚",
     "code": 689,
     "pinyin": "FASHUBOLINIXIYA",
@@ -1088,6 +1224,7 @@
     "tc": "法屬玻利尼西亞"
   },
   {
+    "hot": false,
     "sc": "葡萄牙",
     "code": 351,
     "pinyin": "PUTAOYA",
@@ -1096,6 +1233,7 @@
     "tc": "葡萄牙"
   },
   {
+    "hot": false,
     "sc": "波多黎各",
     "code": 1787,
     "pinyin": "BODUOLIGE",
@@ -1104,6 +1242,7 @@
     "tc": "波多黎各"
   },
   {
+    "hot": false,
     "sc": "卡塔尔",
     "code": 974,
     "pinyin": "KATAER",
@@ -1112,6 +1251,7 @@
     "tc": "卡塔爾"
   },
   {
+    "hot": false,
     "sc": "留尼旺",
     "code": 262,
     "pinyin": "LIUNIWANG",
@@ -1120,6 +1260,7 @@
     "tc": "留尼旺"
   },
   {
+    "hot": false,
     "sc": "罗马尼亚",
     "code": 40,
     "pinyin": "LUOMANIYA",
@@ -1128,6 +1269,7 @@
     "tc": "羅馬尼亞"
   },
   {
+    "hot": false,
     "sc": "俄罗斯",
     "code": 7,
     "pinyin": "ELUOSI",
@@ -1136,6 +1278,7 @@
     "tc": "俄羅斯"
   },
   {
+    "hot": false,
     "sc": "圣卢西亚",
     "code": 1758,
     "pinyin": "SHENGLUXIYA",
@@ -1144,6 +1287,7 @@
     "tc": "聖盧西亞"
   },
   {
+    "hot": false,
     "sc": "圣文森特岛",
     "code": 1784,
     "pinyin": "SHENGWENSENTEDAO",
@@ -1152,6 +1296,7 @@
     "tc": "聖文森特島"
   },
   {
+    "hot": false,
     "sc": "东萨摩亚(美)",
     "code": 684,
     "pinyin": "DONGSAMOYA(MEI)",
@@ -1160,6 +1305,7 @@
     "tc": "東薩摩亞(美)"
   },
   {
+    "hot": false,
     "sc": "西萨摩亚",
     "code": 685,
     "pinyin": "XISAMOYA",
@@ -1168,6 +1314,7 @@
     "tc": "西薩摩亞"
   },
   {
+    "hot": false,
     "sc": "圣马力诺",
     "code": 378,
     "pinyin": "SHENGMALINUO",
@@ -1176,6 +1323,7 @@
     "tc": "聖馬力諾"
   },
   {
+    "hot": false,
     "sc": "圣多美和普林西比",
     "code": 239,
     "pinyin": "SHENGDUOMEIHEPULINXIBI",
@@ -1184,6 +1332,7 @@
     "tc": "聖多美和普林西比"
   },
   {
+    "hot": false,
     "sc": "沙特阿拉伯",
     "code": 966,
     "pinyin": "SHATEALABO",
@@ -1192,6 +1341,7 @@
     "tc": "沙地阿拉伯"
   },
   {
+    "hot": false,
     "sc": "塞内加尔",
     "code": 221,
     "pinyin": "SAINEIJIAER",
@@ -1200,6 +1350,7 @@
     "tc": "塞內加爾"
   },
   {
+    "hot": false,
     "sc": "塞舌尔",
     "code": 248,
     "pinyin": "SAISHEER",
@@ -1208,6 +1359,7 @@
     "tc": "塞舌爾"
   },
   {
+    "hot": false,
     "sc": "塞拉利昂",
     "code": 232,
     "pinyin": "SAILALIANG",
@@ -1216,6 +1368,7 @@
     "tc": "塞拉利昂"
   },
   {
+    "hot": false,
     "sc": "新加坡",
     "code": 65,
     "pinyin": "XINJIAPO",
@@ -1224,6 +1377,7 @@
     "tc": "新加坡"
   },
   {
+    "hot": false,
     "sc": "斯洛伐克",
     "code": 421,
     "pinyin": "SILUOFAKE",
@@ -1232,6 +1386,7 @@
     "tc": "斯洛伐克"
   },
   {
+    "hot": false,
     "sc": "斯洛文尼亚",
     "code": 386,
     "pinyin": "SILUOWENNIYA",
@@ -1240,6 +1395,7 @@
     "tc": "斯洛文尼亞"
   },
   {
+    "hot": false,
     "sc": "所罗门群岛",
     "code": 677,
     "pinyin": "SUOLUOMENQUNDAO",
@@ -1248,6 +1404,7 @@
     "tc": "所羅門群島"
   },
   {
+    "hot": false,
     "sc": "索马里",
     "code": 252,
     "pinyin": "SUOMALI",
@@ -1256,6 +1413,7 @@
     "tc": "索馬里"
   },
   {
+    "hot": false,
     "sc": "南非",
     "code": 27,
     "pinyin": "NANFEI",
@@ -1264,6 +1422,7 @@
     "tc": "南非"
   },
   {
+    "hot": false,
     "sc": "西班牙",
     "code": 34,
     "pinyin": "XIBANYA",
@@ -1272,6 +1431,7 @@
     "tc": "西班牙"
   },
   {
+    "hot": false,
     "sc": "斯里兰卡",
     "code": 94,
     "pinyin": "SILILANKA",
@@ -1280,6 +1440,7 @@
     "tc": "斯裡蘭卡"
   },
   {
+    "hot": false,
     "sc": "圣卢西亚",
     "code": 1758,
     "pinyin": "SHENGLUXIYA",
@@ -1288,6 +1449,7 @@
     "tc": "聖盧西亞"
   },
   {
+    "hot": false,
     "sc": "圣文森特",
     "code": 1784,
     "pinyin": "SHENGWENSENTE",
@@ -1296,6 +1458,7 @@
     "tc": "聖文森特"
   },
   {
+    "hot": false,
     "sc": "苏丹",
     "code": 249,
     "pinyin": "SUDAN",
@@ -1304,6 +1467,7 @@
     "tc": "蘇丹"
   },
   {
+    "hot": false,
     "sc": "苏里南",
     "code": 597,
     "pinyin": "SULINAN",
@@ -1312,6 +1476,7 @@
     "tc": "蘇里南"
   },
   {
+    "hot": false,
     "sc": "斯威士兰",
     "code": 268,
     "pinyin": "SIWEISHILAN",
@@ -1320,6 +1485,7 @@
     "tc": "斯威士蘭"
   },
   {
+    "hot": false,
     "sc": "瑞典",
     "code": 46,
     "pinyin": "RUIDIAN",
@@ -1328,6 +1494,7 @@
     "tc": "瑞典"
   },
   {
+    "hot": false,
     "sc": "瑞士",
     "code": 41,
     "pinyin": "RUISHI",
@@ -1336,6 +1503,7 @@
     "tc": "瑞士"
   },
   {
+    "hot": false,
     "sc": "叙利亚",
     "code": 963,
     "pinyin": "XULIYA",
@@ -1344,6 +1512,7 @@
     "tc": "敘利亞"
   },
   {
+    "hot": false,
     "sc": "中国台湾",
     "code": 886,
     "pinyin": "ZHONGGUOTAIWAN",
@@ -1352,6 +1521,7 @@
     "tc": "中國台灣"
   },
   {
+    "hot": false,
     "sc": "塔吉克斯坦",
     "code": 992,
     "pinyin": "TAJIKESITAN",
@@ -1360,6 +1530,7 @@
     "tc": "塔吉克"
   },
   {
+    "hot": false,
     "sc": "坦桑尼亚",
     "code": 255,
     "pinyin": "TANSANGNIYA",
@@ -1368,6 +1539,7 @@
     "tc": "坦桑尼亞"
   },
   {
+    "hot": false,
     "sc": "泰国",
     "code": 66,
     "pinyin": "TAIGUO",
@@ -1376,6 +1548,7 @@
     "tc": "泰國"
   },
   {
+    "hot": false,
     "sc": "多哥",
     "code": 228,
     "pinyin": "DUOGE",
@@ -1384,6 +1557,7 @@
     "tc": "多哥"
   },
   {
+    "hot": false,
     "sc": "汤加",
     "code": 676,
     "pinyin": "TANGJIA",
@@ -1392,6 +1566,7 @@
     "tc": "湯加"
   },
   {
+    "hot": false,
     "sc": "特立尼达和多巴哥",
     "code": 1809,
     "pinyin": "TELINIDAHEDUOBAGE",
@@ -1400,6 +1575,7 @@
     "tc": "特立尼達和多巴哥"
   },
   {
+    "hot": false,
     "sc": "突尼斯",
     "code": 216,
     "pinyin": "TUNISI",
@@ -1408,6 +1584,7 @@
     "tc": "突尼斯"
   },
   {
+    "hot": false,
     "sc": "土耳其",
     "code": 90,
     "pinyin": "TUERQI",
@@ -1416,6 +1593,7 @@
     "tc": "土耳其"
   },
   {
+    "hot": false,
     "sc": "土库曼斯坦",
     "code": 993,
     "pinyin": "TUKUMANSITAN",
@@ -1424,6 +1602,7 @@
     "tc": "土庫曼"
   },
   {
+    "hot": false,
     "sc": "乌干达",
     "code": 256,
     "pinyin": "WUGANDA",
@@ -1432,6 +1611,7 @@
     "tc": "烏幹達"
   },
   {
+    "hot": false,
     "sc": "乌克兰",
     "code": 380,
     "pinyin": "WUKELAN",
@@ -1440,6 +1620,7 @@
     "tc": "烏克蘭"
   },
   {
+    "hot": false,
     "sc": "阿拉伯联合酋长国",
     "code": 971,
     "pinyin": "ALABOLIANHEQIUZHANGGUO",
@@ -1448,6 +1629,7 @@
     "tc": "阿拉伯聯合酋長國"
   },
   {
+    "hot": false,
     "sc": "英国",
     "code": 44,
     "pinyin": "YINGGUO",
@@ -1456,6 +1638,7 @@
     "tc": "英國"
   },
   {
+    "hot": false,
     "sc": "美国",
     "code": 1,
     "pinyin": "MEIGUO",
@@ -1464,6 +1647,7 @@
     "tc": "美國"
   },
   {
+    "hot": false,
     "sc": "乌拉圭",
     "code": 598,
     "pinyin": "WULAGUI",
@@ -1472,6 +1656,7 @@
     "tc": "烏拉圭"
   },
   {
+    "hot": false,
     "sc": "乌兹别克斯坦",
     "code": 233,
     "pinyin": "WUZIBIEKESITAN",
@@ -1480,6 +1665,7 @@
     "tc": "烏茲別克"
   },
   {
+    "hot": false,
     "sc": "委内瑞拉",
     "code": 58,
     "pinyin": "WEINEIRUILA",
@@ -1488,6 +1674,7 @@
     "tc": "委內瑞拉"
   },
   {
+    "hot": false,
     "sc": "越南",
     "code": 84,
     "pinyin": "YUENAN",
@@ -1496,6 +1683,7 @@
     "tc": "越南"
   },
   {
+    "hot": false,
     "sc": "也门",
     "code": 967,
     "pinyin": "YEMEN",
@@ -1504,6 +1692,7 @@
     "tc": "也門"
   },
   {
+    "hot": false,
     "sc": "南斯拉夫",
     "code": 381,
     "pinyin": "NANSILAFU",
@@ -1512,6 +1701,7 @@
     "tc": "南斯拉夫"
   },
   {
+    "hot": false,
     "sc": "津巴布韦",
     "code": 263,
     "pinyin": "JINBABUWEI",
@@ -1520,6 +1710,7 @@
     "tc": "津巴布韋"
   },
   {
+    "hot": false,
     "sc": "扎伊尔",
     "code": 243,
     "pinyin": "ZHAYIER",
@@ -1528,6 +1719,7 @@
     "tc": "扎伊爾"
   },
   {
+    "hot": false,
     "sc": "赞比亚",
     "code": 260,
     "pinyin": "ZANBIYA",
