@@ -34,7 +34,6 @@ public class AreaAdapter extends PyAdapter<RecyclerView.ViewHolder> {
     public void onBindHolder(RecyclerView.ViewHolder holder, PyEntity entity, int position) {
         AreaHolder areaHolder = (AreaHolder) holder;
         final Area country = (Area) entity;
-        areaHolder.ivFlag.setImageResource(country.flag);
         areaHolder.tvName.setText(country.name + "(" + country.locale + ")");
         areaHolder.tvCode.setText("+" + country.code);
         holder.itemView.setOnClickListener(v -> {

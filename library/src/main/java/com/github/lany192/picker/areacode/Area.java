@@ -5,7 +5,7 @@ import androidx.annotation.NonNull;
 public class Area implements PyEntity {
     public int code;
     public String name, locale, pinyin;
-    public int flag;
+    private int flag;
     private boolean hot;
 
     public Area(boolean hot, int code, String name, String pinyin, String locale, int flag) {
