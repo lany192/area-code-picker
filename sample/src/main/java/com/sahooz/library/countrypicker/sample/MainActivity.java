@@ -9,6 +9,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.sahooz.library.countrypicker.Area;
+import com.sahooz.library.countrypicker.AreaHelper;
 import com.sahooz.library.countrypicker.Language;
 import com.sahooz.library.countrypicker.PickActivity;
 
@@ -23,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         try {
-            Area.load(this, Language.SIMPLIFIED_CHINESE);
+            AreaHelper.get().load(this, Language.SIMPLIFIED_CHINESE);
         } catch (IOException e) {
             e.printStackTrace();
         } catch (JSONException e) {
@@ -39,14 +40,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == 111 && resultCode == Activity.RESULT_OK) {
-            Area country = Area.fromJson(data.getStringExtra("country"));
+            Area country = AreaHelper.get().fromJson(data.getStringExtra("country"));
             Toast.makeText(this, country.toJson(), Toast.LENGTH_SHORT).show();
         }
     }
 
     @Override
     protected void onDestroy() {
-        Area.destroy();
+        AreaHelper.get().destroy();
         super.onDestroy();
     }
 }

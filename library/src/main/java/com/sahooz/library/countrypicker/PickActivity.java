@@ -33,7 +33,7 @@ public class PickActivity extends AppCompatActivity {
         EditText etSearch = findViewById(R.id.et_search);
         TextView tvLetter = findViewById(R.id.tv_letter);
         allCountries.clear();
-        allCountries.addAll(Area.getAll());
+        allCountries.addAll(AreaHelper.get().getAll());
         selectedCountries.clear();
         selectedCountries.addAll(allCountries);
         final CAdapter adapter = new CAdapter(selectedCountries);
