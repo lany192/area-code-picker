@@ -1,4 +1,4 @@
-package com.sahooz.library.countrypicker.sample;
+package com.github.lany192.picker.areacode.sample;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -8,10 +8,10 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.sahooz.library.countrypicker.Area;
-import com.sahooz.library.countrypicker.AreaHelper;
-import com.sahooz.library.countrypicker.Language;
-import com.sahooz.library.countrypicker.PickActivity;
+import com.github.lany192.picker.areacode.Area;
+import com.github.lany192.picker.areacode.AreaHelper;
+import com.github.lany192.picker.areacode.Language;
+import com.github.lany192.picker.areacode.PickActivity;
 
 import org.json.JSONException;
 

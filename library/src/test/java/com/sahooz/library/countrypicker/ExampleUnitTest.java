@@ -1,4 +1,4 @@
-package com.sahooz.library.countrypicker;
+package com.github.lany192.picker.areacode;
 
 import static org.junit.Assert.assertEquals;
 
