@@ -19,11 +19,10 @@ import java.util.WeakHashMap;
  */
 
 public abstract class PyAdapter<VH extends RecyclerView.ViewHolder> extends RecyclerView.Adapter<VH> implements View.OnClickListener {
-
     public static final int TYPE_LETTER = 0;
     public static final int TYPE_OTHER = 1;
     private static final String TAG = PyAdapter.class.getSimpleName();
-    public final ArrayList<PyEntity> entityList = new ArrayList<>();
+    public final List<PyEntity> entityList = new ArrayList<>();
     public final HashSet<LetterEntity> letterSet = new HashSet<>();
     private WeakHashMap<View, VH> holders = new WeakHashMap<>();
     private OnItemClickListener listener = (entity, position) -> {
