@@ -19,8 +19,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PickActivity extends AppCompatActivity {
-    private List<Area> selectedCountries = new ArrayList<>();
-    private List<Area> allCountries = new ArrayList<>();
+    private final List<Area> selectedCountries = new ArrayList<>();
+    private final List<Area> allCountries = new ArrayList<>();
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
